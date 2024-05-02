@@ -1,0 +1,32 @@
+django-blog-mvp/
+│
+├── blog/                      # Django app for blog functionality
+│   ├── migrations/            # Database migrations
+│   ├── templates/             # HTML templates for views
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py              # Models for blog posts and comments
+│   ├── tests.py               # Tests for blog app
+│   ├── urls.py                # URL patterns for blog app
+│   └── views.py               # View functions for blog app
+│
+├── static/                    # Static files (CSS, JavaScript, etc.)
+│   └── css/
+│       └── style.css
+│
+├── templates/                 # Base HTML templates
+│   ├── base.html
+│   └── index.html             # Template for homepage
+│
+├── mysite/                    # Django project configuration
+│   ├── __init__.py
+│   ├── settings.py            # Project settings
+│   ├── urls.py                # Project-level URL patterns
+│   └── wsgi.py
+│
+├── .gitignore                 # Git ignore file
+├── README.md                  # Project README
+├── CONTRIBUTING.md            # Contributing guidelines
+├── requirements.txt           # Python dependencies
+└── LICENSE                    # License file
